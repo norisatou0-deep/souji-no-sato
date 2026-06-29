@@ -22,6 +22,7 @@
 
 - 電話番号：`index.html` 内の `08097424373`
 - Googleフォーム：`index.html` 内の `https://forms.gle/PF4ynjadxf1Uwvu38`
+- Google Search Console確認ファイル：`googlec9d23d3c065a1ce9.html`
 - 料金：`index.html` の `PRICE` セクション
 - 写真：`assets/` 内の画像を同じファイル名で差し替え
 
@@ -36,3 +37,4 @@
 - お客様の声を引用元に依存しない安全な表現へ調整
 - GitHub Pages公開用のREADMEを整備
 - お問い合わせ導線をGoogleフォームへ統一
+- Google Search Console用のHTML確認ファイルを追加
