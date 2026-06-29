@@ -21,8 +21,7 @@
 ## 更新時によく触る場所
 
 - 電話番号：`index.html` 内の `08097424373`
-- メールアドレス：`index.html` 内の `norisatou0@gmail.com`
-- Googleフォーム：フォーム公開URLができたら、`index.html` の問い合わせボタンをフォームURLへ差し替え
+- Googleフォーム：`index.html` 内の `https://forms.gle/PF4ynjadxf1Uwvu38`
 - 料金：`index.html` の `PRICE` セクション
 - 写真：`assets/` 内の画像を同じファイル名で差し替え
 
@@ -36,3 +35,4 @@
 - 事業情報セクションを追加
 - お客様の声を引用元に依存しない安全な表現へ調整
 - GitHub Pages公開用のREADMEを整備
+- お問い合わせ導線をGoogleフォームへ統一
