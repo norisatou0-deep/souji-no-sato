@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://norisatou0-deep.github.io/souji-no-satou/sitemap.xml
+Sitemap: https://norisatou0-deep.github.io/souji-no-sato/sitemap.xml
