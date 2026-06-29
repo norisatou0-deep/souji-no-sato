@@ -29,8 +29,11 @@ footer{text-align:center;background:#F8FBFD;padding:48px 24px 102px;color:var(--
   border:1px solid #eadfbd;
   border-radius:999px;
   padding:8px 12px;
-  display:inline-block;
+  display:block;
+  width:max-content;
+  max-width:100%;
   margin:10px auto 4px !important;
+  text-align:center;
 }
 
 .contact-card > p{
