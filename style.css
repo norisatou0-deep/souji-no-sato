@@ -34,6 +34,9 @@ footer{text-align:center;background:#F8FBFD;padding:48px 24px 102px;color:var(--
   max-width:100%;
   margin:10px auto 4px !important;
   text-align:center;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  line-height:1.7;
 }
 
 .contact-card > p{
@@ -48,5 +51,69 @@ footer{text-align:center;background:#F8FBFD;padding:48px 24px 102px;color:var(--
   .contact-card > p{
     font-size:16px;
     line-height:1.8;
+  }
+  .price-columns,
+  .set-menu,
+  .single-menu,
+  .payment,
+  .vacant,
+  .set-main{
+    min-width:0;
+    max-width:100%;
+  }
+  .price .section-heading{
+    margin-bottom:38px;
+  }
+  .set-menu,
+  .single-menu,
+  .payment,
+  .vacant{
+    padding:22px 18px;
+    border-radius:22px;
+  }
+  .set-row{
+    gap:12px;
+    padding:18px 0;
+  }
+  .set-row.popular{
+    margin:0;
+    padding:18px 12px;
+  }
+  .set-main h4,
+  .set-main p,
+  .set-main small{
+    overflow-wrap:anywhere;
+    word-break:normal;
+  }
+  .set-main h4{
+    font-size:17px;
+    line-height:1.55;
+  }
+  .set-main small{
+    font-size:11px;
+    line-height:1.7;
+  }
+  .single-menu dl div{
+    gap:16px;
+    align-items:baseline;
+  }
+  .single-menu dt{
+    min-width:0;
+    overflow-wrap:anywhere;
+  }
+  .single-menu dd{
+    flex:0 0 auto;
+    white-space:nowrap;
+  }
+  .payment strong{
+    display:block;
+    line-height:1.8;
+  }
+  .card-brands{
+    width:100%;
+    max-width:100%;
+    border-radius:18px;
+    padding:8px 10px;
+    font-size:11px;
   }
 }
