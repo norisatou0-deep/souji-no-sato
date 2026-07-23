@@ -6,6 +6,8 @@
 ## 公開ファイル
 
 - `index.html`：ページ本体
+- `housekeeping.html`：定期家事代行ページ
+- `cleaning.html`：ハウスクリーニングページ
 - `style.css`：デザイン、スマホ表示、固定CTA
 - `script.js`：メニュー開閉、スクロール表示アニメーション
 - `assets/`：ロゴ、写真、サービス画像
@@ -22,18 +24,20 @@
 ## 更新時によく触る場所
 
 - 電話番号：`index.html` 内の `08097424373`
-- Googleフォーム：`index.html` 内の `https://forms.gle/PF4ynjadxf1Uwvu38`
+- Googleフォーム：各HTML内の `https://forms.gle/PF4ynjadxf1Uwvu38`
 - Google Search Console確認ファイル：`googlec9d23d3c065a1ce9.html`
-- 料金：`index.html` の `PRICE` セクション
-- 定期家事代行：`index.html` の `HOUSEKEEPING` セクション
+- ハウスクリーニング料金：`cleaning.html` の `PRICE` セクション
+- 定期家事代行料金：`housekeeping.html` の `PRICE` セクション
 - 写真：`assets/` 内の画像を同じファイル名で差し替え
 
 ## Remake 2026-07-23の内容
 
 - トップページを「ハウスクリーニング」と「定期家事代行」の2本柱へ変更
+- 定期家事代行ページとハウスクリーニングページを分割
 - 定期家事代行を公式サイトから相談できる主力サービスとして追加
+- 定期家事代行の料金を、初回お試し・月2回・週1回・スポットに整理
 - ハウスクリーニングから定期利用へつながる導線を追加
-- 料金セクションに定期家事代行のプラン案内を追加
+- 家事代行ページに対応範囲、日時、FAQを追加
 - FAQに定期家事代行とハウスクリーニングの違いを追加
 - SEOタイトル、ディスクリプション、OGP、構造化データを更新
 - 固定CTAとお問い合わせ文言を「公式サイトから相談」へ調整
